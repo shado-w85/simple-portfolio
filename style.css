@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f6f8;
@@ -7,9 +12,94 @@ body {
 
 h1 {
   color: #333;
+  font-size: 36px;
+  text-transform: uppercase;
 }
 
 p {
   color: #666;
   font-size: 18px;
+}
+
+.h2{
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.fm{
+  color: #007bff;
+  margin-top: 20px;
+
+}
+.fm ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fm ul li{
+  list-style: none;
+margin: 0 10px;
+}
+
+.fm ul li a{
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.fm ul li a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.fm ul li a:active {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.fm ul li a:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.form {
+  margin-top: 30px;
+  border: none;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+.form input[type="text"],
+.form input[type="email"]{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.btn{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+.btn:active {
+  background-color: #004085;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
 }

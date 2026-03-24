@@ -1,0 +1,17 @@
+<?php
+declare(strict_types=1);
+
+// Copy this file to config.php and fill in your database credentials.
+// IMPORTANT: do NOT commit config.php with real secrets.
+
+return [
+  "db" => [
+    "host" => "127.0.0.1",
+    "user" => "root",
+    "pass" => "",
+    "name" => "simple_portfolio",
+    "port" => 3306,
+    "charset" => "utf8mb4",
+  ],
+];
+

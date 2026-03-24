@@ -1,23 +1,31 @@
-# My First GitHub Project
+## Hall 3 — Simple Portfolio (Upgraded)
 
-This is a simple beginner project created to learn how to use Git and GitHub.
+This project is a responsive hostel website with a modern Bootstrap UI, cookie consent, and an optional secure PHP + MySQLi backend endpoint for the contact form.
 
-## Features
+### Features
 
-- Simple HTML page
-- Basic CSS styling
-- Beginner friendly structure
+- **Responsive UI**: Works on phones, tablets, laptops, desktops, and large screens
+- **Modern layout & UX**: Sticky navbar, clear sections, accessible focus states
+- **Performance**: Minimal custom CSS, deferred JS, CDN Bootstrap
+- **Security hardening**: Safer defaults via meta policies + prepared statements (PHP)
+- **Cookie consent**: Lightweight banner with accept/decline
 
-## Technologies Used
+### Technologies Used
 
-- HTML5
-- CSS3
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5
+- **Backend (optional)**: PHP, MySQLi, MySQL
 
-## How to Run
+### How to Run (Static)
 
-1. Download or clone the repository
-2. Open `index.html` in any web browser
+Open `index.html` in a browser.
 
-## Author
+### How to Run (PHP + MySQL)
 
-**Alex Audax*
+- **Step 1**: Import `schema.sql` into your MySQL server.
+- **Step 2**: Copy `config.php.example` to `config.php` and set DB credentials.
+- **Step 3**: Serve the folder with PHP enabled (e.g., Apache/XAMPP).
+- **Step 4**: Submit the form in `index.html#contact` → it will POST to `contact.php`.
+
+### Author
+
+Alex Audax
